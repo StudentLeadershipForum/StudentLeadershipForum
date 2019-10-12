@@ -435,7 +435,24 @@ img {
         background: url(img/2.jpg);
         background-repeat: repeat;
         height: 600px;
-        width: auto;
+    }
+    
+    .mapouter2 {
+        position:relative;
+        text-align:right;
+        height:500px;
+        width:600px;
+        display:block;
+    }
+    
+    .gmap_canvas2 {
+        overflow:hidden;
+        background:none!important;
+        height:500px;
+        width:600px;
+    }
+    .mapouter {
+        display: none;
     }
 }
 
@@ -1121,6 +1138,31 @@ img {
     margin: 0 auto;
 }
 
+/*--------------------------------
+    13.5 Map
+----------------------------------*/
+
+.mapouter2 {
+    display: none;
+}
+.gmap_canvas2 {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:600px;
+}
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:1350px;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:1350px;
+}
 
 /*--------------------------------
     14. Contact CSS Start
