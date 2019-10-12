@@ -254,8 +254,22 @@ img {
 }
 .section-title h2 span {
     color: #4263f5;
+    
 }
 
+.section-title2 {
+    margin-bottom: 60px;
+    text-align: center;
+}
+.section-title2 h2 {
+    font-size: 36px;
+    margin-bottom: 0;
+    color: white;
+}
+.section-title2 h2 span {
+    color: cyan;
+    
+}
 /* Preloader CSS */
 #preloader {
   position: fixed;
