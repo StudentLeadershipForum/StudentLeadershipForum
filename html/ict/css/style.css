@@ -435,6 +435,7 @@ img {
         background: url(img/2.jpg);
         background-repeat: repeat;
         height: 600px;
+        width: auto;
     }
 }
 
