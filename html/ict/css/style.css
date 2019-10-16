@@ -864,6 +864,9 @@ img {
     color: #4263f5;
     margin-right: 10px;
 }
+.organizer-image {
+    border-radius: 10px;
+}
 
 
 /*--------------------------------
